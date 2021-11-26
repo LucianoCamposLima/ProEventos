@@ -31,4 +31,7 @@ namespace ProEventos.API.Controllers
             return _context.Eventos.FirstOrDefault( e => e.EventoId == id);
         }
     }
+
+
+    
 }
